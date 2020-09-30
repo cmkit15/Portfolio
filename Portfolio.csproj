@@ -84,7 +84,13 @@
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
+    <Content Include="Images\blog-thumbnail.jpg" />
+    <Content Include="Images\blog.jpg" />
     <Content Include="Images\header-bg.jpg" />
+    <Content Include="Images\laptop-thumbnail.jpg" />
+    <Content Include="Images\laptop.jpg" />
+    <Content Include="Images\money-thumbnail.jpg" />
+    <Content Include="Images\money.jpg" />
     <Content Include="Images\profile.jpg" />
     <Content Include="Images\close-icon.svg" />
     <Content Include="Images\favicon.ico" />
