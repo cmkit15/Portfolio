@@ -99,6 +99,7 @@
     <Content Include="Images\mountains.jpg" />
     <Content Include="Images\navbar-logo.svg" />
     <Content Include="index.html" />
+    <Content Include="Scripts\contact_me.js" />
     <Content Include="Scripts\jqBootstrapValidation.js" />
     <Content Include="Scripts\scripts.js" />
     <Content Include="Web.config" />
