@@ -71,7 +71,7 @@
     <Content Include="Content\styles.css" />
     <Content Include="Images\blog-thumbnail.jpg" />
     <Content Include="Images\blog.jpg" />
-    <Content Include="Images\header-bg.jpg" />
+    <Content Include="Images\desk.jpg" />
     <Content Include="Images\laptop-thumbnail.jpg" />
     <Content Include="Images\laptop.jpg" />
     <Content Include="Images\money-02-thumbnail.jpg" />
@@ -83,7 +83,7 @@
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\default-header-bg.jpg" />
     <Content Include="Images\map-image.png" />
-    <Content Include="Images\mountains.jpg" />
+    <Content Include="Images\header-bg.jpg" />
     <Content Include="Images\navbar-logo.svg" />
     <Content Include="index.html" />
     <Content Include="Scripts\contact_me.js" />
