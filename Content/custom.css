@@ -1,6 +1,4 @@
-﻿
-
-/*styles.css 10156*/
+﻿/*styles.css 10156*/
 header.masthead .masthead-heading {
     font-size: 2.25rem;
     font-weight: 500;
@@ -30,7 +28,6 @@ header.masthead .masthead-heading {
             margin-bottom: 1rem;
         }
 }
-
 .city-state {
     font-size: 1.5rem;
     font-style: normal;
@@ -40,6 +37,18 @@ header.masthead .masthead-heading {
 h3 {
     font-size: 1.25rem;
     font-weight: 600;
+}
+.hire-me {
+    padding-left: 10%;
+}
+.resume {
+    padding-right: 10%;
+}
+.white {
+    color: white;
+}
+.skills-padding {
+    padding: 20px;
 }
 /*styles.css 2132*/
 textarea.form-control {
@@ -54,16 +63,18 @@ textarea.form-control {
 p, ul, li {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-/*.project-details {
-    text-align: center;
-    list-style-type: circle;
-}
-.project-details ul li {
-    list-style-type: disc;
-    list-style-position: inside;
-}*/
 .bio {
     padding-bottom: 40px;
+}
+.coding-row {    
+    /*border: solid 1px red;*/
+}
+.coding-card {
+    padding: 20px;
+    /*border: solid 1px red;*/
+}
+.coding-text {
+    padding-top: 20px;
 }
 .form-subheading-text {
     color: white;

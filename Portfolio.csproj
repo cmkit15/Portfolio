@@ -69,9 +69,17 @@
   <ItemGroup>
     <Content Include="Content\custom.css" />
     <Content Include="Content\styles.css" />
+    <Content Include="default-template.html" />
+    <Content Include="Images\aspdotnet.png" />
     <Content Include="Images\blog-thumbnail.jpg" />
     <Content Include="Images\blog.jpg" />
+    <Content Include="Images\bootstrap.png" />
+    <Content Include="Images\creative-market.jpg" />
+    <Content Include="Images\designmodo.jpg" />
     <Content Include="Images\desk.jpg" />
+    <Content Include="Images\envato.jpg" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\frontend.png" />
     <Content Include="Images\laptop-thumbnail.jpg" />
     <Content Include="Images\laptop.jpg" />
     <Content Include="Images\money-02-thumbnail.jpg" />
@@ -80,11 +88,12 @@
     <Content Include="Images\money-01.jpg" />
     <Content Include="Images\profile.jpg" />
     <Content Include="Images\close-icon.svg" />
-    <Content Include="Images\favicon.ico" />
     <Content Include="Images\default-header-bg.jpg" />
     <Content Include="Images\map-image.png" />
     <Content Include="Images\header-bg.jpg" />
     <Content Include="Images\navbar-logo.svg" />
+    <Content Include="Images\sql.svg" />
+    <Content Include="Images\themeforest.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\contact_me.js" />
     <Content Include="Scripts\emailjs.js" />
