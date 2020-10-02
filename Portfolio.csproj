@@ -80,6 +80,7 @@
     <Content Include="Images\envato.jpg" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\frontend.png" />
+    <Content Include="Images\headshot.jpg" />
     <Content Include="Images\laptop-thumbnail.jpg" />
     <Content Include="Images\laptop.jpg" />
     <Content Include="Images\money-02-thumbnail.jpg" />
