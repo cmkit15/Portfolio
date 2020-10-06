@@ -50,7 +50,7 @@
         <div class="container">
             <div class="masthead-subheading">Kit Chau</div>
             <div class="masthead-heading text-uppercase">Full Stack Developer</div>
-            <div class="city-state">Winston-Salem, NC</div>
+            <div class="city-state">in the Triad area of North Carolina</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contact</a>
         </div>
     </header>
@@ -267,8 +267,55 @@
                         <i class="fas fa-calculator fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Sum of All Fears</h4>
-                    <button class="btn btn-primary" type="button" href="">Open Project</button>
+                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#sumOfAllFears">Open Project</button>
                     <p class="coding-text">Another classic challenge for all the math fans out there.</p>
+                </div>
+                 <!-- Modal -->
+                <div class="modal fade" id="sumOfAllFears" tabindex="-1" role="dialog" aria-labelledby="sumOfAllFears" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="sumOfAllFears">Sum of All Fears</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                
+                                <div class="input-group">
+                                    <div class="col">
+
+
+                                        <div class="row">
+                                            <input type="text" class="form-control" autocomplete="off" id="num1" />
+                                        </div>
+                                        <div class="row">
+                                            <input type="text" class="form-control" autocomplete="off" id="num1" />
+                                        </div>
+
+                                        <div class="row">
+                                            <input type="text" class="form-control" autocomplete="off" id="num1" />
+                                        </div>
+
+                                    </div>
+                                    <div class="input-group-prepend">
+                                        <button type="button" class="btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                                
+                                
+                                <p id="results"></p>
+
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger">Clear</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
