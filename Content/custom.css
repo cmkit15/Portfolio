@@ -106,7 +106,7 @@ p, ul, li {
     background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url("../Images/skills-md.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;hub
+    background-position: center center;
     background-size: cover;
     color: white;
 }
