@@ -34,6 +34,18 @@ header.masthead .masthead-heading {
     margin-bottom: 3rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.btn-custom {
+    color: #fff;
+    background-color: #ffa500;
+    border-color: #ffa500;
+    /*font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+}
+.btn:hover {
+    color: white;
+    background-color: gold;
+    border-color: gold;
+    text-decoration: none;
+}
 h3 {
     font-size: 1.25rem;
     font-weight: 600;
@@ -87,3 +99,27 @@ p, ul, li {
 .copyright {
     padding-top: 20px;
 }
+.bg-ghostwhite {
+    background-color: ghostwhite;
+}
+.bg-skills {
+    background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url("../Images/skills-md.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;hub
+    background-size: cover;
+    color: white;
+}
+.bg-projects {
+    background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url("../Images/projects-md.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+i {
+    font-size: 5rem;
+    color: white;
+}
+
