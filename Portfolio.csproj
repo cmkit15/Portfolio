@@ -82,10 +82,10 @@
     <Content Include="Images\honda-jet.jpg" />
     <Content Include="Images\laptop-thumbnail.jpg" />
     <Content Include="Images\laptop.jpg" />
+    <Content Include="Images\money-01-md.jpg" />
+    <Content Include="Images\money-01-thumbnail.jpg" />
     <Content Include="Images\money-02-thumbnail.jpg" />
     <Content Include="Images\money-02.jpg" />
-    <Content Include="Images\money-01-thumbnail.jpg" />
-    <Content Include="Images\money-01.jpg" />
     <Content Include="Images\phone.jpg" />
     <Content Include="Images\profile.jpg" />
     <Content Include="Images\close-icon.svg" />
