@@ -4,11 +4,6 @@
 document.getElementById('form').addEventListener('submit', function (event) {
     event.preventDefault();
     
-        sendEmail();
-        
-})
-
-function sendEmail() {
     btn.value = 'sending...';
 
     const serviceID = 'service_p4f9gf5';
@@ -30,14 +25,5 @@ function sendEmail() {
             btn.value = 'Send Email';
             alert(JSON.stringify(err));
         });
-}
-
-//let name = document.getElementById('name').value;
-//let email = document.getElementById('email').value;
-//let phone = document.getElementById('phone').value;
-//let message = document.getElementById('message').value;
-//
-//if (name == "" || email == "" || phone == "" || message == "") {
-//    alert("You must fill out the entire form.");
-//    return false;
-//}
+        
+})
