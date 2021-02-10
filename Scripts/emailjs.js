@@ -1,9 +1,8 @@
-﻿const btn = document.getElementById('button');
-
+﻿const btn = document.getElementById('sendButton');
 
 document.getElementById('form').addEventListener('submit', function (event) {
     event.preventDefault();
-    
+
     btn.value = 'sending...';
 
     const serviceID = 'service_p4f9gf5';
@@ -25,5 +24,4 @@ document.getElementById('form').addEventListener('submit', function (event) {
             btn.value = 'Send Email';
             alert(JSON.stringify(err));
         });
-        
 })

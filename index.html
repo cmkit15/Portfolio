@@ -1,337 +1,301 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Kit Chau - Full Stack Developer</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kit Chau - Full Stack ASP.Net Developer</title>
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="Content/styles.css" rel="stylesheet" />
-    <!--Custom CSS-->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="Vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="Content/stylish-portfolio.css" rel="stylesheet">
     <link href="Content/custom.css" rel="stylesheet" />
+
     <!--Devicon CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
     <!-- Sweetalert CDN-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    
+
 </head>
+
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">Kit Chau</li>
-                </ul>
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ml-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#coding">Coding</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">Kit Chau</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#resume">Resume</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#coding">Coding</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+        </ul>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Kit Chau</div>
-            <div class="masthead-heading text-uppercase">Full Stack Developer</div>
-            <div class="city-state">in the Triad area of North Carolina</div>
-            <a class="btn btn-custom btn-lg js-scroll-trigger" href="#contact">Contact</a>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1 text-light font-weight-normal">Kit Chau</h1>
+            <h3 class="mb-5 text-light font-weight-normal">
+                <em>Full Stack ASP.Net Developer in the Piedmont Triad area of North Carolina</em>
+            </h3>
+            <a class="btn btn-white btn-xl js-scroll-trigger" href="#contact">Contact</a>
         </div>
+        <div class="overlay"></div>
     </header>
-    <!-- About-->
-    <section class="page-section bg-light" id="about">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-headinge">Who I am</h2>
-                <h3 class="section-subheading text-muted"></h3>
-            </div>
+    .
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
+                <div class="col-lg-10 mx-auto">
+                    <div class="content-section-heading">
+                        <h2 class="font-weight-normal text-custom-dark mb-5">This is what I do</h2>
+                    </div>
+                    <div class="profile mb-4">
                         <img class="mx-auto rounded-circle" src="Images/headshot.jpg" alt="" />
-                        <h4>Kit Chau</h4>
-                        <p class="text-muted">Full Stack Developer<br />Winston-Salem, NC</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/cmkit15" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/kit-chau" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                </div>
-                <div class="col vertical-center">
-                    <p class="bio">Hello, My name is Kit Chau and I am a full stack ASP.Net developer in the triad area of North Carolina who has a passion for technology and building web applications along with a desire to learn and adapt to new challenges. I have an extensive background in logistics and retail that has translated into teamwork, problem solving and leadership over many years. My goal is to utilize my skills and experience to help you turn your ideas into something special.</p>
-                    <div class="row">
-                        <div class="col">
-                            <a class="btn btn-custom btn-lg js-scroll-trigger" href="#contact">Hire Me</a>
-                        </div>
-                    </div>
+                    <p class="lead mb-5">
+                        My name is Kit Chau and I am a full stack ASP.Net developer in the Piedmont Triad area of North Carolina who has a passion for technology and building web applications along with a desire to learn and adapt to new challenges. I have an extensive background in logistics and retail that has translated into teamwork, problem solving and leadership over many years. My goal is to utilize my skills and experience to help you turn your ideas into something special.
+                    </p>
+                    <a class="btn btn-custom-dark btn-xl js-scroll-trigger" href="#contact">Hire Me</a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Skills-->
-    <section class="page-section bg-skills" id="skills">
+
+    <!-- Skills -->
+    <section class="content-section bg-skills text-white text-center" id="skills">
         <div class="container">
-            <div class="text-center">
-                <h2 class="section-headinge">Skills</h2>
-                <h3 class="section-subheading text-muted"></h3>
+            <div class="content-section-heading">
+                <!--<h3 class="text-secondary mb-0">Skills</h3>-->
+                <h2 class="font-weight-normal mb-5">Some of the technologies I use</h2>
             </div>
             <div class="row justify-content-center text-center">
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-html5-plain-wordmark"></i>         
+                    <i class="devicon-html5-plain-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-css3-plain-wordmark"></i>
+                    <i class="devicon-css3-plain-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-javascript-plain skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-bootstrap-plain-wordmark"></i>
+                    <i class="devicon-bootstrap-plain-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-jquery-plain-wordmark"></i>
+                    <i class="devicon-jquery-plain-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-csharp-plain"></i>
+                    <i class="devicon-csharp-plain skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-dot-net-plain-wordmark"></i>
+                    <i class="devicon-dot-net-plain-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-postgresql-plain-wordmark"></i>
+                    <i class="devicon-postgresql-plain-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-github-original-wordmark"></i>
+                    <i class="devicon-github-original-wordmark skills"></i>
                 </div>
                 <div class="col-xl-1 col-lg-2 col-md-6 col-sm-6 mb-5">
-                    <i class="devicon-visualstudio-plain"></i>
+                    <i class="devicon-visualstudio-plain skills"></i>
                 </div>
-            </div>                
-        
-        </div>
-    </section>
-    <!-- Resume-->
-    <section class="page-section bg-light" id="resume">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading">Resume</h2>
-                <div class="mt-2 mb-5">
-                    <a class="btn btn-custom btn-lg" href="https://drive.google.com/uc?export=download&id=1hWrgT36oc7U-z8xJvG4aRPkH-_8kJ_De&export=download">Download Resume</a>
-                </div>                
-            </div> 
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="Images/coder-foundry.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Sep 2020 - Present</h4>
-                            <h5 class="subheading">Coder Foundry</h5>
-                            <h6>Kernersville, NC</h6>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Develop web applications utilizing HTML, CSS, Javascript, jQuery, Bootstrap, C#, SQL Server, and ASP.NET Core MVC.</p></div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="Images/honda-jet.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Nov 2016 - Apr 2020</h4>
-                            <h5 class="subheading">Honda Aircraft Company</h5>
-                            <h6>Greensboro, NC</h6>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Oversaw the inbound/outbound and inventory control processes utilizing SAP ERP. Also assisted procurement, quality assurance and management on issues with purchase/sales orders, product defects, special projects and provide leadership and training.</p></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="Images/cat.png" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Mar 2015 - Oct 2016</h4>
-                            <h5 class="subheading">Caterpillar Inc.</h5>
-                            <h6>Winston-Salem, NC</h6>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Pick and transfer work orders to support the production floor utilizing SAP ERP and assisted in implementing ideas for continuous improvement process in an ongoing effort on improving workflow, productivity, processes and safety.</p></div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="Images/gtcc.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>July 2004</h4>
-                            <h5 class="subheading">Guilford Technical Community College</h5>
-                            <h6>Jamestown, NC</h6>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Completed AAS degree in Sound Engineering in the the Entertainment Technologies program.</p></div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-projects" id="portfolio">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading">Projects</h2>
-                <h3 class="section-subheading text-muted"></h3>
             </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="content-section bg-light" id="resume">
+        <div class="container text-center">
+            <div class="content-section-heading">
+                <h2 class="font-weight-normal text-custom-dark mb-5">You can download a copy of my resume here</h2>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1hWrgT36oc7U-z8xJvG4aRPkH-_8kJ_De&export=download" class="btn btn-xl btn-custom-dark">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="content-section bg-projects" id="projects">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <!--<h3 class="text-secondary mb-0">Portfolio</h3>-->
+                <h2 class="font-weight-normal mb-5">Recent Projects</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="http://debuggerkit.herokuapp.com" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">DebuggerKit</div>
+                                <p class="mb-0">A bug tracking solution for all of your business needs!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="Images/projects-debuggerkit.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="http://financialkit-mvc.herokuapp.com" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">FinancialKit MVC</div>
+                                <p class="mb-0">A household budgeting application that helps you monitor your spending!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="Images/projects-financialkit-mvc.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="http://financialkit-api.herokuapp.com" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">FinancialKit API</div>
+                                <p class="mb-0">A web service that allows you retreive data from the database without a direct connection!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="Images/projects-financialkit-api.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="http://blog-kit-chau.herokuapp.com" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">BlogKit</div>
+                                <p class="mb-0">A place where I talk about tech and everything else.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="Images/projects-blogkit.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding -->
+    <section class="content-section bg-light" id="coding">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-lg-3 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="Images/laptop-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">DebuggerKit</div>
-                            <div class="portfolio-caption-subheading text-muted">Bug Tracker</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalMVC">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="Images/money-01-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">FinancialKit</div>
-                            <div class="portfolio-caption-subheading text-muted">MVC Financial Portal</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalAPI">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="Images/money-02-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">FinancialKit API</div>
-                            <div class="portfolio-caption-subheading text-muted">Financial Portal API</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" href="http://blog-kit-chau.herokuapp.com" target="_blank">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="Images/blog-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">BlogKit</div>
-                            <div class="portfolio-caption-subheading text-muted">Blog</div>
-                        </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="content-section-heading">
+                        <h2 class="font-weight-normal text-custom-dark mb-5">Coding</h2>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Coding-->
-    <section class="page-section bg-light" id="coding">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading">Coding</h2>
-                <h3 class="section-subheading text-muted"></h3>
-            </div>
-            <div class="row text-center coding-row">
-                <div class="col-lg-3 col-sm-6 coding-card">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary font-awesome"></i>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x text-orange font-awesome"></i>
                         <i class="fas fa-calculator fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Mortgage Loan Calculator</h4>
-                    <a class="btn btn-primary" type="button" href="https://mortgageloancalculator.netlify.app/" target="_blank">Open Project</a>
-                    <p class="coding-text"></p>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 coding-card">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary font-awesome"></i>
-                        <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Fizz Buzz</h4>
-                    <a class="btn btn-primary" type="button" href="https://fizzbuzz-kit-chau.netlify.app" target="_blank">Open Project</a>
-                    <p class="coding-text"></p>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 coding-card">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-building fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Sunset Hills</h4>
-                    <a class="btn btn-primary" type="button" href="https://sunsethills-kit-chau.netlify.app" target="_blank">Open Project</a>
-                    <p class="coding-text"></p>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 coding-card">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fab fa-rev fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">TacocaT</h4>
-                    <a class="btn btn-primary" type="button" href="https://tacocat-kit-chau.netlify.app" target="_blank">Open Project</a>
-                    <p class="coding-text"></p>
-                </div>                
-
-                </div>
-
-            <div class="row justify-content-center text-center coding-row">
-                    <div class="col-lg-3 col-sm-6 coding-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-calculator fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Sum of All Fears</h4>
-                        <a class="btn btn-primary" type="button" href="https://sumofallfears-kit-chau.netlify.app" target="_blank">Open Project</a>
-                        <p class="coding-text"></p>
+                    <div>
+                        <a class="btn btn-orange mt-3" type="button" href="https://mortgageloancalculator.netlify.app/" target="_blank">Open Project</a>
+                        <h4 class="font-weight-normal my-3">Loan Calculator</h4>
                     </div>
                 </div>
-
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x text-orange font-awesome"></i>
+                        <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div>
+                        <a class="btn btn-orange mt-3" type="button" href="https://fizzbuzz-kit-chau.netlify.app" target="_blank">Open Project</a>
+                        <h4 class="font-weight-normal my-3">Fizz Buzz</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x text-orange"></i>
+                        <i class="fas fa-building fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div>
+                        <a class="btn btn-orange mt-3" type="button" href="https://sunsethills-kit-chau.netlify.app" target="_blank">Open Project</a>
+                        <h4 class="font-weight-normal my-3">Sunset Hills</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x text-orange"></i>
+                        <i class="fab fa-rev fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div>
+                        <a class="btn btn-orange mt-3" type="button" href="https://tacocat-kit-chau.netlify.app" target="_blank">Open Project</a>
+                        <h4 class="font-weight-normal my-3">TacocaT</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-3">
+                    <span class="fa-stack fa-3x">
+                        <i class="fas fa-circle fa-stack-2x text-orange"></i>
+                        <i class="fas fa-equals fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div>
+                        <a class="btn btn-orange mt-3" type="button" href="https://sumofallfears-kit-chau.netlify.app" target="_blank">Open Project</a>
+                        <h4 class="font-weight-normal my-3">Sum of All Fears</h4>
+                    </div>
+                </div>
             </div>
+        </div>
     </section>
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading">Contact</h2>
-                <h3 class="form-subheading-text">Have questions or want to work together?</h3>
+
+    <!-- Contact -->
+    <section class="content-section bg-contact" id="contact">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="content-section-heading">
+                        <h2 class="font-weight-normal mb-5">Contact me</h2>
+                    </div>
+                    <p class="lead mb-5">
+                        Have questions or want to work together?<br />
+                        Get in touch!
+                    </p>
+                </div>
             </div>
             <form id="form">
                 <div class="row justify-content-center mb-5">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-10 col-sm-12">
                         <div class="form-group">
                             <input class="form-control" id="name" type="text" name="name" placeholder="Name" autocomplete="off" required />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="email" type="email" name="email" placeholder="Email" autocomplete="off" required  />
+                            <input class="form-control" id="email" type="email" name="email" placeholder="Email" autocomplete="off" required />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group mb-md-0">
@@ -339,260 +303,54 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" name="message" placeholder="Message" required ></textarea>
+                            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="6" required></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button id="button" class="btn btn-custom btn-xl text-uppercase" type="submit" value="Send Email">Send</button>
+                    <button id="sendButton" class="btn btn-white btn-xl text-uppercase" type="submit" value="Send Email">Send</button>
                 </div>
             </form>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="footer py-4">
+
+    <!-- Footer -->
+    <footer class="footer text-center">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left"></div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/cmkit15" target="_blank"><i class="fab fa-github"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/kit-chau" target="_blank"><i class="fab fa-linkedin-in"></i></a><br />
-                    <div class="copyright">
-                        <span>© Kit Chau 2021. All rights reserved.</span>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-lg-right"></div>
-            </div>
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="https://github.com/cmkit15" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/kit-chau" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-muted mb-0">&copy; Kit Chau 2021. All rights reserved.</p>
         </div>
     </footer>
-    <!-- Portfolio Modals-->
-    <!-- Debugger Kit Modal-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">DebuggerKit</h2>
-                                <p class="item-intro text-muted">Bug Tracker</p>
-                                <img class="img-fluid d-block mx-auto" src="Images/laptop.jpg" alt="" />
-                                <p>DebuggerKit is a ticketing system that allows you to manage projects and submit tickets for software bugs, defects, issues and much more. This application allows you to develop a workflow between teams and individuals on resovling issues.</p>
-                                <div class="project-details">
-                                    <h3>Features</h3>
-                                    <ul class="list-inline">
-                                        <li>Create and submit tickets.</li>
-                                        <li>Assign users to projects.</li>
-                                        <li>Edit and manage projects and tickets.</li>
-                                        <li>Time stamped tickets and history for past reference.</li>
-                                        <li>Built on <strong>HTML, CSS, Javascript, jQuery, Bootstrap, C#, SQL Server and ASP.NET Core MVC.</strong>.</li>
-                                    </ul>
-                                </div>
-                                <a class="btn btn-primary" type="button" href="http://debuggerkit.herokuapp.com" target="_blank">Open Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Financial Kit Modal MVC -->
-    <div class="portfolio-modal modal fade" id="portfolioModalMVC" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">FinancialKit</h2>
-                                <p class="item-intro text-muted">MVC Financial Portal</p>
-                                <img class="img-fluid d-block mx-auto" src="Images/money-01-md.jpg" alt="" />
-                                <p>Are you looking for a way to manage your finances better? The Financial Kit is a great application that can help you manage your budget and provide tools to help you monitor your spending.</p>
-                                <div class="project-details">
-                                    <h3>Features</h3>
-                                    <ul class="list-inline">
-                                        <li>Create a budget for yourself and your household.</li>
-                                        <li>Add and manage banks accounts </li>
-                                        <li>Edit and review your transactions.</li>
-                                        <li>Make deposits, withdraws and much more.</li>
-                                        <li>Built on <strong>HTML, CSS, Javascript, jQuery, Bootstrap, C#, SQL Server and ASP.NET Core MVC.</strong>.</li>
-                                    </ul>
-                                </div>
-                                <a class="btn btn-primary" type="button" href="http://financialkit-mvc.herokuapp.com" target="_blank">Open Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Financial Kit Modal API-->
-    <div class="portfolio-modal modal fade" id="portfolioModalAPI" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">FinancialKit API</h2>
-                                <p class="item-intro text-muted">Financial Portal API</p>
-                                <img class="img-fluid d-block mx-auto" src="Images/money-02.jpg" alt="" />
-                                <p>The FinancialKit API is a web service that you can use to access data from the application. You can use it to retrieve data from the database without a direct connection.</p>
-                                <div class="project-details">
-                                    <ul class="list-inline">
-                                        <li>This API is built with <strong>C#, ASP.NET Core, Npgsql, pgAdmin, Swagger/Swashbuckle</strong>.</li>
-                                    </ul>
-                                </div>
-                                <a class="btn btn-primary" type="button" href="http://financialkit-api.herokuapp.com" target="_blank">Open Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog Modal-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Blog Kit</h2>
-                                <p class="item-intro text-muted">Blog</p>
-                                <img class="img-fluid d-block mx-auto" src="Images/blog.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
-                                <a class="btn btn-primary" type="button" href="http://blog-kit-chau.herokuapp.com" target="_blank">Open Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="Images/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Contact form JS-->
-    <!-- <script src="Scripts/jqBootstrapValidation.js"></script>
-    <script src="Scripts/contact_me.js"></script> -->
-    <!-- Core theme JS-->
-    <!--<script>
-        $(document).ready(function () {
-            $('#resume').click(function () {
-                return false;
-            });
-        });
-    </script>-->
-    <script src="Scripts/scripts.js"></script>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->q
+    <script src="Vendor/jquery/jquery.min.js"></script>
+    <script src="Vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="Vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="Scripts/stylish-portfolio.min.js"></script>
+
+    <!-- Emailjs -->
     <script src="Scripts/emailjs.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -600,7 +358,11 @@
             emailjs.init("user_KFpe8VmlwRfjtdG7313qZ");
         })();
     </script>
+
+    <!-- Sweetalert -->
     <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+
 </body>
+
 </html>
