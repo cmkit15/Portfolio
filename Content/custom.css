@@ -1,13 +1,4 @@
-﻿#date {
-    font-size: 2rem;
-    color: red;
-}
-
-#time {
-    font-size: 2rem;
-}
-
-.btn-white {
+﻿.btn-white {
     font-size: 1.25rem;
     font-weight: 500;
     color: white;
@@ -27,7 +18,7 @@
     border-color: #343a40;
 }
 
-.btn-custom-dark:hover {
+.btn-custom-dark:hover, .btn-coding:hover {
     color: white;
     background-color: #ff622b;
     border-color: #ff622b;
@@ -83,6 +74,12 @@
     min-height: 100vh;
 }
 
+.profile img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
 .bg-skills {
     background-color: #343a40;
 }
@@ -97,19 +94,6 @@
 }
 
 .bg-contact {
-    /*min-height: 30rem;
-    position: relative;
-    display: table;
-    width: 100%;
-    height: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../Images/bg-contact.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;*/
     background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url("../Images/bg-contact.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -144,21 +128,9 @@
     color: #ff622b;
 }
 
-.btn-orange {
+.btn-coding {
     font-weight: 500;
-    color: white;
-    background-color: rgba(255, 100, 43, 10);
-    border-color: rgba(255, 100, 43, 10);
+    color: #343a40;
+    border-color: #343a40;
 }
 
-.btn-orange:hover {
-    color: #ff622b;
-    background-color: rgba(255, 255, 255, 10);
-    border-color: rgba(255, 100, 43, 10);
-}
-
-.profile img {
-    width: 14rem;
-    height: 14rem;
-    border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
