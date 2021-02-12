@@ -18,7 +18,7 @@
     border-color: #343a40;
 }
 
-.btn-custom-dark:hover, .btn-coding:hover {
+.btn-custom-dark:hover {
     color: white;
     background-color: #ff622b;
     border-color: #ff622b;
@@ -130,7 +130,14 @@
 
 .btn-coding {
     font-weight: 500;
-    color: #343a40;
-    border-color: #343a40;
+    color: white;
+    background-color: #ff622b;
+    border-color: #ff622b;
 }
 
+.btn-coding:hover {
+    font-weight: 500;
+    color: #ff622b;
+    background-color: white;
+    border-color: #ff622b;
+}
